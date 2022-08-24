@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Making a calendar app to save your daily entries and add tags to filter notes.
 
 ## Available Scripts
 
