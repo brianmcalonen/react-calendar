@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import TodoList from "./components/TodoList";
 import { v4 as uuidv4 } from 'uuid';
 import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 function App() {
   const LOCAL_STORAGE_KEY = "todoApp.todos"
@@ -59,6 +60,8 @@ function App() {
       <div className="text-center">
         Selected date: {date.toDateString()}
       </div>
+
+      <br/><br/><br/><br/>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input ref={todoValueRef} type="text" />
       <button onClick={handleAddTodo}>Add Todo</button>
