@@ -3,6 +3,7 @@ import TodoList from "./components/TodoList";
 import { v4 as uuidv4 } from 'uuid';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import './styles/calendar.css';
 
 function App() {
   const LOCAL_STORAGE_KEY = "todoApp.todos"
